@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MENU</title>
+    <style>
+      * {
+          box-sizing: border-box;
+      }
+      h1 {
+        font-family: Helvetica;
+        text-align: center;
+      }
+      #content {
+        background-color: gray;
+        border: 3px solid;
+        overflow: hidden;
+        float: left;
+        margin: 5px;
+      }
+      #c1{
+        background-color: pink;
+        border: .5px solid;
+        float: right;
+        width: 75px;
+        font-family: Helvetica;
+        text-align: center;
+      }
+      #c11 {
+        position: relative;
+        top: 20px;
+        left: 5px;
+        clear: left;
+        margin-bottom: 20px;
+      }
+      #c12 { clear: left;
+            position: relative;
+            left: 5px;
+      }
+      #c13 { clear: left;
+        position: relative;
+        left: 5px;
+      }
+      #c14 { clear: left;
+        position: relative;
+        left: 5px;
+      }
+      #c2{
+        background-color: red;
+        border: .5px solid black;
+        float: right;
+        width: 75px;
+        font-family: Helvetica;
+        color: white;
+        text-align: center;
+      }
+      #c3{
+        background-color: yellow;
+        border: .5px solid;
+        float: right;
+        width: 75px;
+        font-family: Helvetica;
+        text-align: center;
+      }
+
+      .row {
+        width: 100%
+      }
+
+      @media (min-width: 992px) {
+        .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
+        .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12
+        { float: left; }
+
+      .col-lg-1 { width: 8.33%; }
+      .col-lg-2 { width: 16.66%; }
+      .col-lg-3 { width: 25%; }
+      .col-lg-4 { width: 33%; }
+      .col-lg-5 { width: 41.66%; }
+      .col-lg-6 { width: 50%; }
+      .col-lg-7 { width: 58.33%; }
+      .col-lg-8 { width: 66.66%; }
+      .col-lg-9 { width: 75%; }
+      .col-lg-10 { width: 83.33%; }
+      .col-lg-11 { width: 91.66%; }
+      .col-lg-12 { width: 100%; }}
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+        .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12
+        { float: left; }
+
+      .col-md-1 { width: 8.33%; }
+      .col-md-2 { width: 16.66%; }
+      .col-md-3 { width: 25%; }
+      .col-md-4 { width: 33%; }
+      .col-md-5 { width: 41.66%; }
+      .col-md-6 { width: 50%; }
+      .col-md-7 { width: 58.33%; }
+      .col-md-8 { width: 66.66%; }
+      .col-md-9 { width: 75%; }
+      .col-md-10 { width: 83.33%; }
+      .col-md-11 { width: 91.66%; }
+      .col-md-12 { width: 100%; }}
+
+      @media (min-width: 50px) and (max-width: 767px) {
+        .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6,
+        .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12
+        { float: left; }
+
+      .col-xs-1 { width: 8.33%; }
+      .col-xs-2 { width: 16.66%; }
+      .col-xs-3 { width: 25%; }
+      .col-xs-4 { width: 33%; }
+      .col-xs-5 { width: 41.66%; }
+      .col-xs-6 { width: 50%; }
+      .col-xs-7 { width: 58.33%; }
+      .col-xs-8 { width: 66.66%; }
+      .col-xs-9 { width: 75%; }
+      .col-xs-10 { width: 83.33%; }
+      .col-xs-11 { width: 91.66%; }
+      .col-xs-12 { width: 100%; }}
+
+    </style>
+
+  </head>
+  <body>
+    <h1> Our Menu </h1>
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-xs-12">
+        <div id="box">
+          <div id="content">
+            <div id="c1"> Chicken</div>
+            <div id="c11">
+              Deliciosas recetas realizadas con Pollo de corral con todo el sabor
+              (Delicious recipes made with free-range chicken with all the flavor):</div>
+            <div id="c12">Pollo a la brasa,</div>
+            <div id="c13">Pollo en pepitoria,</div>
+            <div id="c14">Caldo de gallina.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 col-xs-12">
+        <div id="box">
+          <div id="content">
+            <div id="c2"> Beef</div>
+            <div id="c11">Con las mejores vacas gallegas alimentadas con los mas verdes pastos
+              (The best Galician cows fed on the greenest pastures):</div>
+            <div id="c12">Roast Beef,</div>
+            <div id="c13">Solomillo a la pimienta,</div>
+            <div id="c14">Entrecot de Buey.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-xs-12">
+       <div id="box">
+          <div id="content">
+            <div id="c3"> Sushi</div>
+            <div id="c11">Desde el antiguo Japón traemos los tradicionales platos de Sushi con el pescado mas fresco
+              (From ancient Japan we bring the traditional Sushi dishes with the freshest fish):</div>
+            <div id="c12">Sushi maki,</div>
+            <div id="c13">Sushi nigiri,</div>
+            <div id="c14">Sushi gunkan.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
